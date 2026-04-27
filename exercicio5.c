@@ -1,6 +1,6 @@
 //Leia 5 números e conte quantos são positivos.
 #include <stdio.h>
-int main() {
+void main() {
     int numeros[5];
     int i;
     int contadorPositivos = 0;
@@ -15,5 +15,5 @@ int main() {
 
     printf("O número de valores positivos digitados é: %d\n", contadorPositivos);
 
-    return 0;
+   
 }

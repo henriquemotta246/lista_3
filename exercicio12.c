@@ -6,7 +6,7 @@ Mostre quantas questões o aluno acertou e qual a porcentagem que acertou.
 #include <stdio.h>
 #include <string.h>
 
-int main() {
+void main() {
     char gabarito[31], respostas[31];
     int acertos = 0;
     double porcentagem;
@@ -27,9 +27,9 @@ int main() {
 
     porcentagem = (double)acertos / 30 * 100;
 
-    printf("Número de acertos: %d\n", acertos);
+    printf("Numero de acertos: %d\n", acertos);
     printf("Porcentagem de acertos: %.2f%%\n", porcentagem);
 
-    return 0;
+    
 }
 

@@ -1,6 +1,6 @@
 //Leia 4 números float e calcule a média.
 #include <stdio.h>
-int main() {
+void main() {
     float numeros[4];
     float soma = 0.0;
     int i;
@@ -14,5 +14,5 @@ int main() {
     float media = soma / 4;
     printf("A média dos números digitados é: %.2f\n", media);
 
-    return 0;
+   
 }

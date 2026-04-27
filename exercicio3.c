@@ -1,6 +1,6 @@
 // Leia 6 números e mostre o maior e o menor valor.
 #include <stdio.h>
-int main() {
+void main() {
     int numeros[6];
     int i;
     int maior, menor;
@@ -24,5 +24,5 @@ int main() {
     printf("O maior número é: %d\n", maior);
     printf("O menor número é: %d\n", menor);
 
-    return 0;
+    
 }

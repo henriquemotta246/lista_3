@@ -1,7 +1,7 @@
 //Leia 5 números inteiros e mostre todos na tela.
 #include <stdio.h>
 
-int main() {
+void main() {
     int numeros[5];
     int i;
 
@@ -16,5 +16,5 @@ int main() {
     }
     printf("\n");
 
-    return 0;
+  
 }

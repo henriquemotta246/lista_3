@@ -1,6 +1,6 @@
 //Leia 6 números e mostre apenas os números maiores que 10.
 #include <stdio.h>
-int main() {
+void main() {
     int numero[6];
     int i;
 
@@ -16,5 +16,5 @@ int main() {
         }
     }
 
-    return 0;
+
 }

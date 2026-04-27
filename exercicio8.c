@@ -1,6 +1,6 @@
 // Leia 5 números e verifique se existe o número 50  no vetor
 #include <stdio.h>
-int main() {
+void main() {
     int numeros[5];
     int encontrado = 0;
 
@@ -18,5 +18,5 @@ int main() {
         printf("O número 50 não foi encontrado no vetor.\n");
     }
 
-    return 0;
+    
 }
